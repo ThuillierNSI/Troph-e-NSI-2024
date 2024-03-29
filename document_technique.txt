@@ -1,0 +1,15 @@
+﻿Pour l'exécution de notre programme, il vous faut une connexion internet, le logo de notre lycée au format jpeg (intitulé logo_lycee), le fichier csv 
+intitulé Classe_Terminales_2024_ ainsi que le script python intitulé JDLAssistant.
+
+La première fois que vous exécuterez notre programme, cela peut prendre du temps, en effet le script doit aller chercher les informations sur les 
+différentes formations sur internet. 
+
+Afin que notre programme soit exécutable, vous devrez télécharger les modules python suivant :
+-sqlite3
+-csv
+-requests
+-bs4
+-os
+-tkinter
+-PIL
+

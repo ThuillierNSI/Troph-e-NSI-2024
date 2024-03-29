@@ -1,0 +1,15 @@
+﻿
+
+
+Tout d'abord, notre programme crée une base de données avec 4 tables : eleves, formation, inscriptions_jdl et inscriptions.
+Notre programme se connecte au fichier Classes_Terminales_2024_ et remplit la table eleves.
+Si le fichier Formation_jdl n'existe pas, notre programme se connecte sur le site des JDL et prend différentes informations sur les formations.
+Il met ces différentes informations sur un fichier CSV : Formation_jdl. 
+Une fois toutes les informations prises, il remplit la table formation. 
+Ensuite, notre programme génère une interface graphique, avec différents éléments : des listbox, des menus déroulants, des boutons, des scrollbars ainsi que des labels. 
+L'utilisateur peut voir dans la listbox_toutes_formations toutes les formations disponibles au JDL. 
+Ensuite, l'élève peut s'inscrire à une formation en choisissant dans un menu déroulant sa classe (combo_classe), son identité (combo_eleve) puis il n'a plus qu'à choisir une formation (combo_id_formation).
+L'utilisateur n'a plus qu'à valider ses informations grâce au bouton_valider. Suite à cela, la listbox_formations_selectionnees affiche à quelles formations est inscrit l'utilisateur. 
+Si l'utilisateur souhaite des informations supplémentaires sur une formation comme l'horaire, la date ainsi que l'adresse, il peut donc appuyer sur le bouton_info. 
+Une fois les inscriptions finies, il ne reste plus qu'à générer un fichier CSV pour savoir le nombre d'élèves inscrits à une formation.
+Pour cela, il faut appuyer sur le bouton_terminer.
