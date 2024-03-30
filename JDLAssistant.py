@@ -14,7 +14,7 @@ from tkinter import *
 from tkinter import font
 import tkinter as tk
 from tkinter import ttk
-from PIL import ImageTk, Image
+from PIL import ImageTk, Image  # attention il faut une version PIL inférieur à 10 : pip install Pillow==9.5.0
 
 # creation toutes les tables
 def creer_base_de_donnees(): # creation des differentes tables
