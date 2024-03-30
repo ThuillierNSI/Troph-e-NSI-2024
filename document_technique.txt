@@ -11,5 +11,5 @@ Afin que notre programme soit exécutable, vous devrez télécharger les modules
 -bs4
 -os
 -tkinter
--PIL
+-PIL   # # attention il faut une version PIL inférieur à 10 : pip install Pillow==9.5.0
 
